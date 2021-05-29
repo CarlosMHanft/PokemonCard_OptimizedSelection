@@ -1,4 +1,4 @@
-![pokemontcglogo](https://github.com/CarlosMHanft/PokemonCard_OptimizedSelection/blob/main/pkmn_images/pokemontcgbiglogo.png)
+![pokemontcglogo](pkmn_images/pokemontcgbiglogo.png)
 
 Este projeto foi criado para ajudar os jogadores de Pokémon TCG a **escolherem as melhores cartas com base nas suas estratégias e conectar as metodologias em ciência de dados dentro do Pokémon**.
 
