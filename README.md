@@ -8,10 +8,10 @@ Encontramos pouca aplicação de dados na tomada de decisão dentro do cenário 
 
 A ideia principal é facilitar a tomada de decisão do jogador antes de preparar seu baralho e está com as seguintes dificuldades:
 
-    1. Como saber se determinada carta é boa em comparação com as demais ?
-    2. Aquele pokémon é a melhor escolha pra estratégia do meu baralho ?
-    3. Há muitas cartas para pesquisar e analisar (dificuldade para os iniciantes e menos experientes)
-    4. Preciso saber quais estão neste formato antes de tomar uma decisão
+    Como saber se determinada carta é boa em comparação com as demais ?
+    Aquele pokémon é a melhor escolha pra estratégia do meu baralho ?
+    Há muitas cartas para pesquisar e analisar (dificuldade para os iniciantes e menos experientes)
+    Preciso saber quais estão neste formato antes de tomar uma decisão
 
 Com o modelo, estas dificuldades em determinar aquela carta que atendará suas necessidades será reduzida.
 
@@ -23,3 +23,11 @@ API: https://pokemontcg.io/
 ### IMPORTANTE : Por enquanto não temos as estatísticas de jogo pra estimar a eficácia de uma carta contra diversas estratégias, por isso a ideia é dar a melhor solução para uma determinada estratégia. Não podemos presumir que aquela carta fará parte de um baralho vitorioso em campeonatos porque não há dados disponíveis ainda para tal modelagem.
 
  
+Vou explicar o pass-a-passo da metodologia utilizada:
+
+1. Os dados extraídos da API
+2. As transformções feitas para chegar na tabela com os dados puros de cada carta
+3. Premisssas do projeto
+4. Modelo de otimização linear com PuLP
+5. Próximos passos...
+
