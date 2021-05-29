@@ -17,10 +17,10 @@ Com o modelo, estas dificuldades em determinar aquela carta que atendará suas n
 
 Usando dados provenientes de uma API, o modelo otimiza algumas características das cartas para trazer a melhor seleção de acordo com o que o jogador estiver buscando para montar seu baralho.
 
-API: https://pokemontcg.io/
+API: [Pokémon TCG Developers](https://pokemontcg.io/)
 
 
-### IMPORTANTE : Por enquanto não temos as estatísticas de jogo pra estimar a eficácia de uma carta contra diversas estratégias, por isso a ideia é dar a melhor solução para uma determinada estratégia. Não podemos presumir que aquela carta fará parte de um baralho vitorioso em campeonatos porque não há dados disponíveis ainda para tal modelagem.
+### IMPORTANTE : Por enquanto não temos as estatísticas de jogo pra estimar a eficácia de uma carta contra diversas estratégias, por isso a ideia é dar a melhor carta para uma determinada estratégia. Não podemos presumir que aquela carta fará parte de um baralho vitorioso em campeonatos porque não há dados disponíveis ainda para tal modelagem.
 
  
 Vou explicar o pass-a-passo da metodologia utilizada:
