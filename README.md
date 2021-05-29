@@ -23,7 +23,7 @@ API: [Pokémon TCG Developers](https://pokemontcg.io/)
 ### IMPORTANTE : Por enquanto não temos as estatísticas de jogo pra estimar a eficácia de uma carta contra diversas estratégias, por isso a ideia é dar a melhor carta para uma determinada estratégia. Não podemos presumir que aquela carta fará parte de um baralho vitorioso em campeonatos porque não há dados disponíveis ainda para tal modelagem.
 
  
-Vou explicar o pass-a-passo da metodologia utilizada:
+Vou explicar o passo-a-passo da metodologia utilizada:
 
 1. Os dados extraídos da API
 2. As transformções feitas para chegar na tabela com os dados puros de cada carta
