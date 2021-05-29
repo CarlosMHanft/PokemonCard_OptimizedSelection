@@ -306,8 +306,8 @@ def find_prize_cards(x):
 
 
 id=0
-print(f' A carta {df.name[i]} é do tipo {get_card_foil_type(df.tcgplayer[i])}!')
-print(f' A carta {df.name[i]} custa {get_card_price(df.tcgplayer[i])} dólares!')
+print(f' A carta {df.name[id]} é do tipo {get_card_foil_type(df.tcgplayer[id])}!')
+print(f' A carta {df.name[id]} custa {get_card_price(df.tcgplayer[id])} dólares!')
 
 
 # In[ ]:
